@@ -25,23 +25,34 @@
     "dist/"
   ],
   "dependencies": {
+    "@modern-js/plugin-bff": "2.46.1",
+    "@modern-js/plugin-koa": "2.46.1",
     "@modern-js/runtime": "2.46.1",
+    "archiver": "^6.0.1",
+    "i": "^0.3.7",
+    "koa": "~2.15.0",
+    "node-stream-zip": "^1.15.0",
     "react": "~18.2.0",
-    "react-dom": "~18.2.0"
+    "react-dom": "~18.2.0",
+    "tdesign-icons-react": "^0.3.2",
+    "tdesign-react": "^1.5.1"
   },
   "devDependencies": {
+    "@modern-js-app/eslint-config": "2.46.1",
     "@modern-js/app-tools": "2.46.1",
     "@modern-js/eslint-config": "2.46.1",
     "@modern-js/tsconfig": "2.46.1",
-    "@modern-js-app/eslint-config": "2.46.1",
-    "typescript": "~5.0.4",
     "@types/jest": "~29.2.4",
+    "@types/koa": "~2.14.0",
     "@types/node": "~16.11.7",
     "@types/react": "~18.0.26",
     "@types/react-dom": "~18.0.10",
+    "husky": "~8.0.1",
     "lint-staged": "~13.1.0",
     "prettier": "~2.8.1",
-    "husky": "~8.0.1",
-    "rimraf": "~3.0.2"
+    "rimraf": "~3.0.2",
+    "ts-node": "~10.8.1",
+    "tsconfig-paths": "~3.14.1",
+    "typescript": "~5.0.4"
   }
 }
