@@ -13,12 +13,15 @@
 2. 用户逐个登陆新建的社区服务器，记录自己新生成的`<new_uid>`
 
 3. 本地存档压缩为zip后上传，格式如下图
+![上传](/docs/upload.jpg)
 ![压缩包格式](/docs/file.jpg)
 
 4. 在`<old_uid>`后面输入`<new_uid>`
 ![uid](/docs/uid.jpg)
 
 5. 等待生成
+
+6. 点击下载，享受
 
 ## 部署
 
