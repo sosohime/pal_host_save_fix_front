@@ -3,6 +3,8 @@ import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import archiver from 'archiver';
 
+const UE_SAVE_PATH = '/Users/heyesheng/.cargo/bin/uesave';
+
 export const post = async ({
   data,
 }: {
@@ -21,7 +23,7 @@ export const post = async ({
     );
     const pyprog = spawnSync('python3', [
       path.resolve(__dirname, '../../scripts/fix-host-save.py'),
-      '/Users/heyesheng/.cargo/bin/uesave',
+      UE_SAVE_PATH,
       saveDataFolder,
       account.new_uid,
       account.old_uid,
